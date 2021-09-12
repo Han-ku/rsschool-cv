@@ -10,3 +10,38 @@
 * Availability and commitment
 * Willingness to constantly improve qualifications
 * Scrupulousness and accuracy
+
+
+## Skills
+* Relational Databases
+  * Oracle MS
+  * SQL
+* Database Application(C#)
+* Java
+* Bash(base)
+* Mainframe knowledge
+
+## Example of code
+An example from the C# project
+```
+    [HttpPost, ActionName("Delete")]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var movie = await _context.Movie.FindAsync(id);
+            _context.Movie.Remove(movie);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+```
+
+## Education
+Bachelor: Computer science
+
+*Polish-Japanese Academy of Information Technology -
+Warsaw, 10/2018 - present*
+
+## Languages
+* English (A2)
+* Russian (native)
+* Polish (fluent)
