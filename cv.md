@@ -33,3 +33,14 @@ An example from the C# project
         }
 ```
 
+## Education
+Bachelor: Computer science
+
+*Polish-Japanese Academy of Information Technology -
+Warsaw, 10/2018 - present*
+
+## Languages
+* English (A2)
+* Russian (native)
+* Polish (fluent)
+
