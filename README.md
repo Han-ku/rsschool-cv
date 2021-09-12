@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Han-ku.github.io/rsschool-cv/cv
