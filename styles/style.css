@@ -108,3 +108,14 @@ main {
 
     line-height: 5px;
 }
+
+footer nav {
+    column-span: none;
+    column-count: 3;
+    column-gap: 20%;
+}
+
+footer nav a {
+    display: inline-block;
+}
+
