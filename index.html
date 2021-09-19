@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <img src="./5cd5ae58ce4fa.jpg" alt="My photo" width="270" height="300"> 
+            <nav class="block-contact">
+                <h1 class="name">Hanna Kunitskaya</h1>
+                <hr>
+                    <ul>   
+                        <li id="phone">Phone: +48537795337</li>
+                        <li id="email">Email: hanna_kunitskaya@gmail.com</li>
+                    </ul>
+            </nav>
+    </header>
+    <main>
+        <article class="block-main">
+            <h2 class="visually-hidden">Information</h2>
+            <section class="block-pers-info">
+                <h3 class="block-name">Personal information</h3>
+                <ul>
+                    <li>Communicativeness and teamwork</li>
+                    <li>Availability and commitment</li>
+                    <li>Willingness to constantly improve qualifications</li>
+                    <li>Scrupulousness and accuracy</li>
+                </ul>
+            </section>
+            <section class="block-skills">
+                <h3 class="block-name">Skills</h3>
+                <ul>
+                    <li>Relational Databases(Oracle MS, SQL)</li>
+                    <li>Database Application(C#)</li>
+                    <li>Java</li>
+                    <li>Bash(basic)</li>
+                    <li>Mainframe knowledge</li>
+                </ul>
+            </section>
+            <section class="block-code"> 
+                <h3 class="block-name">Example of code</h3>
+                <pre>
+                    <code>
+                        [HttpPost, ActionName("Delete")]<Br>
+                        [ValidateAntiForgeryToken]<Br>
+                        public async Task &lt;IActionResult&gt; DeleteConfirmed(int id)<Br>
+                            {<Br>
+                                var movie = await _context.Movie.FindAsync(id);<Br>
+                                _context.Movie.Remove(movie);<Br>
+                                await _context.SaveChangesAsync();<Br>
+                                return RedirectToAction(nameof(Index));<Br>
+                            }
+                    </code>
+                </pre>
+            </section>
+            <section class="block-education">
+                <h3 class="block-name">Education</h3>
+                <div>
+                    <div class="date">2019 - present</div>
+                        <div class="info">
+                            <p>Polish-Japanese Academy of Information Technology, Warsaw</p>
+                            <p>Bachelor: Computer science</p>
+                        </div>
+                </div>
+            </section>
+            <section class="block-language">
+                <h3 class="block-name">Language</h3>
+                <ul>
+                    <li>English (A2)</li>
+                    <li>Russian (native)</li>
+                    <li>Polish (fluent)</li>
+                </ul>
+            </section>
+        </article>
+        </main>
+    <footer>
+        <nav>
+            <a href="https://github.com/Han-ku">
+                <img src="./github_logo3_news.png" alt="Link for my GitHub" width="50" height="50">
+            </a>
+            <h4>©2021</h4>
+            <a href="https://rs.school/js/">
+                <img src="./rs_school_js.svg" alt="Link for Rs School" width="100" height="50">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
