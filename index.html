@@ -45,15 +45,17 @@
                 <h3 class="block-name">Example of code</h3>
                 <pre>
                     <code>
-                        [HttpPost, ActionName("Delete")]<Br>
-                        [ValidateAntiForgeryToken]<Br>
-                        public async Task &lt;IActionResult&gt; DeleteConfirmed(int id)<Br>
-                            {<Br>
-                                var movie = await _context.Movie.FindAsync(id);<Br>
-                                _context.Movie.Remove(movie);<Br>
-                                await _context.SaveChangesAsync();<Br>
-                                return RedirectToAction(nameof(Index));<Br>
-                            }
+                        function highAndLow(numbers){<Br>
+                            var newArray = numbers.split(' ').map(function(item) {<Br>
+                              return Number(item)<Br>
+                            })<Br>
+                            
+                            var maxNumber = Math.max(...newArray);<Br>
+                            var minNumber = Math.min(...newArray);<Br>
+                            
+                            
+                            return `${maxNumber} ${minNumber}`;<Br>
+                        }<Br>
                     </code>
                 </pre>
             </section>
