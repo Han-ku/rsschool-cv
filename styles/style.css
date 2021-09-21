@@ -30,7 +30,11 @@ img {
     max-width: 100%;
 }
 
-
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
   
   .header {
     position: fixed;
@@ -51,6 +55,19 @@ img {
     height: 100%;
     background-color: #eba61193;
     z-index: 2;
+  }
+
+  @media(max-width:767px){
+    .burger-menu_nav{
+      padding-left: 80px;
+      position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: row;
+    /*height: 15%;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    left: -200%;
+    }
   }
 
   .burger-menu_button{
@@ -105,6 +122,17 @@ img {
   .burger-menu_active .burger-menu_lines::after{
     top:0;
     transform: rotate(-45deg);
+  }
+
+  .burger-menu_nav{
+    padding-left: 80px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: row;
+    /*height: 15%;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    left: -200%;
   }
 
   .burger-menu_active .burger-menu_nav{
