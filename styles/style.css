@@ -179,12 +179,12 @@ img {
 #phone {
     padding-bottom: 0.5em;  
 
-    list-style-image: url("./telephone16.png");
+    list-style-image: url("../image/telephone16.png");
     
 }
 
 #email {
-    list-style-image: url("./mail16.png");
+    list-style-image: url("../image/mail16.png");
 }
 
 @media (max-width: 767px){
@@ -201,11 +201,9 @@ img {
   
     .block-about img {
       padding: 0 0 0 10px;
-    }
-  
-    
+    } 
   }
-  
+
 
 main {
     display: block;
@@ -236,9 +234,10 @@ main {
 }
 
 .block-main ul {
+    padding-left: 30px;
     font-size: 1.2rem;
 
-    list-style-image: url("./w16h161339252457BoxOrange7.png.crdownload");
+    list-style-image: url(../image/w16h161339252457BoxOrange7.png.crdownload);
 }
 
 .block-education .date {
@@ -253,7 +252,7 @@ main {
     margin-bottom: 10px;
     margin-left: 20px;
 
-    line-height: 5px;
+    line-height: 20px;
 }
 
 .block-code {
