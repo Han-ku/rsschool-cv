@@ -53,46 +53,10 @@
     background-color: #eba61193;
     z-index: 2;
   }
+
   
-  /*.header__body {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-  }
-  
-  .header__list {
-    display: flex;
-  
-    position: relative;
-    z-index: 2;
-  }
-  
-  .header__list li {
-    list-style: none;
-    margin: 0 0 0 20px;
-  }
-  
-  .header__link {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 18px;
-    text-decoration: none;
-  } */
-  
-  @media(max-width:767px){
-    .burger-menu_nav{
-      padding-left: 80px;
-      position: fixed;
-    z-index: 20;
-    display: flex;
-    flex-flow: row;
-    /*height: 15%;*/
-    background-color: rgba(0, 0, 0, 0.5);
-    left: -200%;
-    }
-  }
+
+
   .burger-menu_button{
     position:fixed;
     top: 10px;
@@ -225,11 +189,11 @@
   #phone {
     padding-bottom: 0.5em;  
   
-    list-style-image: url("./telephone16.png");
+    list-style-image: url("../image/telephone16.png");
   }
   
   #email {
-    list-style-image: url("./mail16.png");
+    list-style-image: url("../image/mail16.png");
   }
   
   @media (max-width: 767px){
@@ -237,7 +201,7 @@
       padding: 10px 10px 20px 10px;
   
       font-size: 2rem;
-      color: #eba611;
+      
     }
     .block-contact li {
       font-size: 1rem;
@@ -248,7 +212,20 @@
       padding: 0 0 0 10px;
     }
   
-    
+    .block-code {
+        padding: 10px;
+        max-width: 100%;
+    }
+    .burger-menu_nav{
+        padding-left: 80px;
+        position: fixed;
+      z-index: 20;
+      display: flex;
+      flex-flow: row;
+      /*height: 15%;*/
+      background-color: rgba(0, 0, 0, 0.5);
+      left: -200%;
+    }
   }
   
   main {
@@ -280,9 +257,11 @@
   }
   
   .block-main ul {
+   padding-left: 20px;
+
       font-size: 1.2rem;
   
-      list-style-image: url("./w16h161339252457BoxOrange7.png.crdownload");
+      list-style-image: url("../image/w16h161339252457BoxOrange7.png.crdownload");
   }
   
   .block-education .date {
@@ -313,11 +292,7 @@
      
   }
   
-  @media (max-width: 767px){
-    .block-code {
-      padding: 10px;
-      max-width: 100%;
-  }
+
   
   .block-code code{
       display: block;
@@ -328,7 +303,7 @@
       margin: auto;
      
   }
-  }
+  
   
   
   
