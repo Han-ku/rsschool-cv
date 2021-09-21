@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
 
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
     <script>hljs.initHighlightingOnLoad();</script>
 
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <!-- <nav class="header__body"> -->
-            <div class="header__menu">
+    
+    <header class="header" >
+            <div class="header_menu ">
+
                 <a href="#" class="burger-menu_button">
                     <span class="burger-menu_lines"></span>
                 </a>
+
                 <nav class="burger-menu_nav">
                     <a class="header__link" href="#about">About</a>
                     <a class="header__link" href="#pers-info">Personal information</a>
@@ -26,14 +29,18 @@
                     <a class="header__link" href="#ex-code">Example of code</a>
                     <a class="header__link" href="#education">Education</a>
                 </nav>
-                <div class="burger-menu_overlay"></div>
+
+                <div class="burger-menu_overlay">
+
+                </div>
             </div>   
-        </nav>
+
+        
     </header>
     <main>
         <article class="block-main">
             <section class="block-about" id="about">
-                <img src="./image/photo.jpg" alt="My photo" width="270" height="300"> 
+                <img src="../rsschool-cv/image/photo.jpg" alt="My photo" width="270" height="300"> 
                 <div class="block-contact">
                     <h1 class="name">Hanna Kunitskaya</h1>
                     <hr>
@@ -44,7 +51,7 @@
                 </div>
             </section>
             <h2 class="visually-hidden">Information</h2>
-            <section class="block-pers-info">
+            <section class="block-pers-info" id="pers-info">
                 <h3 class="block-name">Personal information</h3>
                 <ul>
                     <li>Communicativeness and teamwork</li>
@@ -54,36 +61,34 @@
                 </ul>
             </section>
             <section class="block-skills">
-                <h3 class="block-name">Skills</h3>
+                <h3 class="block-name" id="skills">Skills</h3>
                 <ul>
                     <li>Relational Databases(Oracle MS, SQL)</li>
                     <li>Database Application(C#)</li>
                     <li>Java</li>
                     <li>Bash(basic)</li>
-                    <li>HTML(basic)</li>
-                    <li>CSS(basic)</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>Mainframe knowledge</li>
                 </ul>
             </section>
-            <section class="block-code"> 
+            <section class="block-code" id="ex-code"> 
                 <h3 class="block-name">Example of code</h3>
                 <pre>
                     <code>
-                        function highAndLow(numbers){<Br>
-                            var newArray = numbers.split(' ').map(function(item) {<Br>
-                              return Number(item)<Br>
-                            })<Br>
+function highAndLow(numbers){<Br>
+    var newArray = numbers.split(' ').map(function(item) {<Br>
+        return Number(item)<Br>
+    })<Br>
                             
-                            var maxNumber = Math.max(...newArray);<Br>
-                            var minNumber = Math.min(...newArray);<Br>
-                            
-                        
-                            return `${maxNumber} ${minNumber}`;<Br>
-                        }<Br>
+    var maxNumber = Math.max(...newArray);<Br>
+    var minNumber = Math.min(...newArray);<Br>
+
+    return `${maxNumber} ${minNumber}`;<Br>
                     </code>
                 </pre>
             </section>
-            <section class="block-education">
+            <section class="block-education" id="education">
                 <h3 class="block-name">Education</h3>
                 <div>
                     <div class="date">2019 - present</div>
@@ -93,7 +98,7 @@
                         </div>
                 </div>
             </section>
-            <section class="block-language">
+            <section class="block-language" id="language">
                 <h3 class="block-name">Language</h3>
                 <ul>
                     <li>English (A2)</li>
