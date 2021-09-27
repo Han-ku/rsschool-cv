@@ -13,6 +13,32 @@
     --font2: 32px;
 }
 
+.text-big {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+
+.text-middle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.text-small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+}
+
 @media (max-width: 1024px) {
     :root {
       --font1: 50px;
@@ -99,9 +125,6 @@ li {
 .logo {
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 28px;
-    letter-spacing: 5px;
-    line-height: auto; 
     background-image: url("./assets/Logo.svg");
     background-repeat:no-repeat; 
 }
@@ -137,25 +160,13 @@ li {
 }
 
 .welcome-info button a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 26px;
     text-align: center;
-    letter-spacing: 2px;
     text-decoration: none;
     color: #fff;
 }
 
 .welcome-info p {
     padding-top: 25px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 33px;
-    letter-spacing: 2px;
     color: #FFFFFF;
 }
 
@@ -263,11 +274,6 @@ li {
 
 .card-info p {
     padding-top: 10px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 22px;
-    line-height: 26px;
     color: var(--bg-dark);
 }
 
@@ -304,13 +310,10 @@ li {
 }
 
 .video-container p {
+    font-size: 21px;
     display: flex;
     align-items: center;
     padding-left: 115px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 21px;
     line-height: 38px;
 }
 
@@ -337,11 +340,6 @@ li {
 }
 .explore-block p {
     padding-bottom: 25px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 38px;
     color: #FFFFFF;
 }
 
@@ -483,20 +481,11 @@ li {
 
 .title-h4 {
     padding-bottom: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
     color: var(--bg-dark);
 }
 
 .title-p {
     padding-bottom: 25px;
-    font-family: Roboto;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 26px;
     color: var(--bg-dark);
 }
 
@@ -511,11 +500,6 @@ li {
 }
 
 .button-total #tickets-buy a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 26px;
     text-decoration: none;
     color: #fff;
     letter-spacing: 2px;
@@ -533,14 +517,8 @@ li {
     padding-bottom: 10px;
 }
 
-.nav-footer  a {
+.nav-footer a {
     padding-left: 145px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 22px;
-    line-height: 26px;
     letter-spacing: 2px;
     text-decoration: none;
     color: #FFFFFF;
@@ -584,13 +562,9 @@ li {
 
 .last p{
     display: inline-block;
-    font-family: Roboto;
     white-space: nowrap;
-    font-style: normal;
     font-weight: 200;
-    font-size: 22px;
-    line-height: 22px;    
-    letter-spacing: 2px;
+    line-height: 22px;     
 }
 
 .last #rsSchool{
