@@ -178,6 +178,31 @@ li {
     background-position: calc(100% - 20px) calc(100% - 10px);
 }
 
+.slider-container {
+    width: 1000px;
+    height: 750px;
+    
+    overflow: hidden;
+}
+
+.slider-items {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    display: flex;
+
+    position: relative;
+
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider-button {
+    border: none; 
+    outline: none;
+    background-color: var(--bg-dark);
+}
+
 .footer {
     background-color: var(--bg-dark);
 }
