@@ -203,6 +203,44 @@ li {
     background-color: var(--bg-dark);
 }
 
+.section-title {
+    left: 0px;
+    top: 0px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: 100;
+    font-size: var(--font1);
+    line-height: 90px;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    white-space: nowrap
+}
+
+.title-light {
+    color: #FFFFFF;  
+}
+
+.title-hover {
+    color: var(--font-gold)
+}
+
+.title-border {
+    position: relative;
+}
+
+.title-border::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark-red);
+}
+
 .footer {
     background-color: var(--bg-dark);
 }
