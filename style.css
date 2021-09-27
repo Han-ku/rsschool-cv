@@ -576,3 +576,56 @@ padding-left: 115px;
 .footer {
     background-color: var(--bg-dark);
 }
+
+.nav-footer li {
+    padding-bottom: 10px;
+}
+
+
+.nav-footer  a {
+    text-decoration: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #FFFFFF;
+padding-left: 145px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.nav-footer ul  {
+    
+    width: 363px;
+    height: 128px;
+    padding: 0;
+    list-style: none;
+    column-count: 2;
+    column-gap: 150px;
+    white-space: nowrap;
+}
+
+.social img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.social ul {
+    
+    display: flex;
+    list-style: none;
+
+    padding-left: 510px;
+}
+
+.social ul li {
+    padding-left: 25px;
+}
