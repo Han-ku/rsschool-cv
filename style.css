@@ -385,6 +385,17 @@ li {
     height: 100vh;
 }
 
+.parallax-img {
+    background-image: url('./assets/parallax.png');
+
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .footer {
     background-color: var(--bg-dark);
 }
