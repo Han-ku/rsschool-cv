@@ -629,3 +629,30 @@ padding-left: 145px;
 .social ul li {
     padding-left: 25px;
 }
+
+.last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0 52px 0
+}
+.last p{
+    display: inline-block;
+    font-family: Roboto;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 2px;
+}
+
+.last #rsSchool{
+    padding: 0 515px 0 457px;
+}
+
+.last a {
+    color: #fff;
+    
+}
