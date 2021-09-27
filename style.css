@@ -418,6 +418,78 @@ li {
     padding: 24px 0 0 0;
 }
 
+.tickets-block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    padding-top: 75px;
+}
+
+.choose-tickets {
+    padding-left: 60px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    
+}
+
+.radio-item {
+	
+    white-space: nowrap;
+    display: block;
+}
+
+.radio-item label {
+	
+	cursor: pointer;
+	position: relative;
+	padding-left: 23px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+
+.radio-item input[type='radio']:after {
+    content: "";
+	
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fdfffd;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid var(--bg-dark);
+}
+
+.radio-item input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--bg-dark);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid var(--bg-dark);
+}
+
+.amount {
+    max-width: 100%;
+    padding-left: 230px;
+    white-space: nowrap;
+}
+
+.ticket_type form input {
+    display: block;
+}
+
 
 .footer {
     background-color: var(--bg-dark);
