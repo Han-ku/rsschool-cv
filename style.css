@@ -241,6 +241,79 @@ li {
     background-color: var(--dark-red);
 }
 
+.card-container {
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: 440px  440px  440px;
+    grid-template-rows: 440px 75px 440px;
+    grid-column-gap: 60px;
+    grid-row-gap: 75px;
+    
+    justify-content: center;
+}
+
+.card { 
+    display: block;
+    padding: 75px 0 0 0;
+ 
+    height: 424px;
+    text-decoration: none;
+}
+
+.card img {
+    height: 285;
+}
+
+.card-info h3 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+    color: var(--bg-dark);
+
+    padding-top: 25px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.info {
+    padding-top: 10px;
+}
+
+.card-info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: var(--bg-dark);
+
+    padding-top: 10px;
+}
+
+.h3-border {
+    position: relative;
+}
+
+.h3-border::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark-red);
+}
+
 .footer {
     background-color: var(--bg-dark);
 }
