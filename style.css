@@ -114,7 +114,69 @@ li {
     line-height: auto;  
 }
 
+.container-welcome {
+    display: grid;
+    grid-template-columns: 40% 60%;
 
+    overflow: hidden;
+}
+
+.welcome-info {
+    padding-top: 150px;
+    white-space: nowrap;
+}
+
+.welcome-info h2 {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.welcome-info button {
+    width: 360px;
+    height: 75px;
+    margin-top: 75px;
+    background-color: var(--dark-red);
+    border-radius: 8px;
+}
+
+.welcome-info button a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+   
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.welcome-info p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    padding-top: 25px;
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.welcome-section img {
+    background-position: calc(100% - 20px) calc(100% - 10px);
+}
 
 .footer {
     background-color: var(--bg-dark);
