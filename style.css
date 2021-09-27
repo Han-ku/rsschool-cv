@@ -395,6 +395,29 @@ li {
     background-size: cover;
 }
 
+.button {
+    float: right;
+    position: absolute;
+}
+
+.picture-container {
+    overflow-y: hidden;
+    
+    padding-top: 75px;
+    height: 2125px;
+}
+
+.picture-inner-container {
+    column-count: 3;
+    gap: 0 36px;
+    height: 2850px;
+}
+
+.picture-inner-container img {
+    width: 456px;
+    padding: 24px 0 0 0;
+}
+
 
 .footer {
     background-color: var(--bg-dark);
